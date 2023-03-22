@@ -9,23 +9,23 @@
 #define Pump D0 //กำหนดPinของ Relay
 #define DHTPIN D5 //กำหนดPinของ เซ็นเซอร์อุอุณหภูมิ
 #define DHTTYPE DHT11 //กำหมดรุ่นของ เซ็นเซอร์อุอุณหภูม
-#define LINE_TOKEN "jwOMjaNyGTvbP0caivFm2Q11IN4w7QF7vDPhP1Yd0o4" //กำหนด
+#define LINE_TOKEN "Your Line Token" //กำหนด
 Linetoken
 LiquidCrystal_I2C lcd(0x27, 16, 2); //เซ็ต LCD
 DHT dht(DHTPIN, DHTTYPE); //เซ็ต เซ็นเซอร์อุอุณหภูมิ
 BlynkTimer timer; //แอพBlynk เวลา
-char auth[] = "FpxuMMF-SPpD01HwMzCnzZ8z8LYYhx8j"; //กำหนด Token Blynk
+char auth[] = "Token Blynk"; //กำหนด Token Blynk
 /////////////Phone Hot sport//////////////
-//char ssid[] = "Gs"; //กำหนด ชื่อ WiFi
-//char pass[] = "B1357911"; //กำหนด รหัสผ่าน WiFi
+//char ssid[] = "SSID"; //กำหนด ชื่อ WiFi
+//char pass[] = "Password"; //กำหนด รหัสผ่าน WiFi
 //////////////////////////////////////////
 /////////////Home Wifi///////////////////
-//char ssid[] = "ITrealStation"; //กำหนด ชื่อ WiFi
-//char pass[] = "08142536"; //กำหนด รหัสผ่าน WiFi
+//char ssid[] = "SSID"; //กำหนด ชื่อ WiFi
+//char pass[] = "Password"; //กำหนด รหัสผ่าน WiFi
 /////////////////////////////////////////
 /////////////Notebook hot sport/////////
-char ssid[] = "dreamxickz"; //กำหนด ชื่อ WiFi
-char pass[] = "142536789"; //กำหนด รหัสผ่าน WiFi
+char ssid[] = "SSID"; //กำหนด ชื่อ WiFi
+char pass[] = "Password"; //กำหนด รหัสผ่าน WiFi
 /////////////////////////////////////////
 const int AirValue = 620; //แทนที่ค่านี้ด้วย Value_1
 const int WaterValue = 310; //แทนที่ค่านี้ด้วย Value_2
