@@ -16,12 +16,12 @@ Major Information Technology
 
 
 
-## Hardware Connection
+## Presentation Project 
 ![61b22db7ece7f654e6a8beec_83793611_191158092243751_1741615041028816896_n (1)](https://github.com/DreaMxickZ/Sunflower-Neverdie-IOT-Project/assets/53443605/c95e5ae1-18d8-439f-ade5-3326c0e8bcc1)
 
 
 
-## Presentation Project
+## Hardware Connection
 ![61b22cca1665e5fc85f24965_Screenshot 2021-12-09 231941](https://github.com/DreaMxickZ/Sunflower-Neverdie-IOT-Project/assets/53443605/7c7b0b0c-67ec-4ed8-8eb4-17cabbe616ba)
 
 
